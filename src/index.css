@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar-w-2::-webkit-scrollbar {
+    width: 12px;
+    /* Change the width of the scrollbar */
+}
+
+.scrollbar-color-gray::-webkit-scrollbar-thumb {
+    background-color: rgb(68, 34, 34);
+    /* Change the color of the scrollbar thumb */
+}
+
+.list {
+    padding: 12px;
+    margin-top: 12px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.listleft {
+    width: 25rem;
+}
+
+/* .midcontent {
+    transform: ;
+} */
+
+.listright {
+    width: 15rem;
+}
+
+.btn {
+    background-color: rgb(180, 147, 211);
+    border: 2px solid white;
+    border-radius: 15px;
+}
